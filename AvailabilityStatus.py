@@ -8,3 +8,9 @@
 # display employee info section
 # display the availability all the time and dates all the time like a calendar
 
+import Employee 
+
+employee1 = Employee.Employee("Drihan", "du Preez", 1, "d@email.com")
+employee2 = Employee.Employee("George", "Smith", 2, "g@email.com")
+
+Employee.Employee.Save(employee1)
