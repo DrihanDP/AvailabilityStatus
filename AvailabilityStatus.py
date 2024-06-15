@@ -13,4 +13,8 @@ import Employee
 employee1 = Employee.Employee("Drihan", "du Preez", 1, "d@email.com")
 employee2 = Employee.Employee("George", "Smith", 2, "g@email.com")
 
-Employee.Employee.Save(employee1)
+Employee.Employee.AddEmployee(employee1)
+Employee.Employee.AddEmployee(employee2)
+
+
+# Employee.Employee.Save()
